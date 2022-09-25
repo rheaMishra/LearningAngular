@@ -1,1 +1,5 @@
-<h4>server template</h4>
+<!-- <p>The server ID {{ServerID}} has server status as {{ServerStatus}}</p>
+ -->
+ <button class="btn btn-primary" [disabled]="!allowNewServer">Add server</button>
+ <p>The {{'server'}} ID {{ServerID}} has server status as {{getServerStatus()}}</p>
+
